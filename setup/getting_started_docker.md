@@ -1,7 +1,7 @@
 # Getting Started with Docker
 This document walks you through how to set up TT-XLA using a Docker image. There are two other available options for getting started:
-* [Installing a Wheel](https://docs.tenstorrent.com/tt-xla/getting_started.html#installing-a-wheel-and-running-an-example) - if you do not want to use Docker, and prefer to use a virtual environment by itself instead, use this method.
-* [Building from Source](https://docs.tenstorrent.com/tt-xla/getting_started_build_from_source.html) - if you plan to develop TT-XLA further, you must build from source, and should use this method.
+* [Installing a Wheel](getting_started.md) - if you do not want to use Docker, and prefer to use a virtual environment by itself instead, use this method.
+* [Building from Source](getting_started_build_from_source.md) - if you plan to develop TT-XLA further, you must build from source, and should use this method.
 
 The following topics are covered:
 
