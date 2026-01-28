@@ -1,5 +1,5 @@
 # Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Tensor Parallelism
-This tutorial shows 
+This tutorial shows how to shard a model's weight matrix across multiple Tenstorrent devices using tensor parallelism. This allows you to split large models that otherwise would not fit on a single chip's memory. 
 
 If you want to try a simpler compilation process using a single chip and either JAX or PyTorch, please see:
 * [Compiling Models in PyTorch and JAX Using TT-XLA (Single Chip)](#compile_models_single_chip.md)
@@ -165,7 +165,7 @@ Elements of the code that are Tenstorrent-specific are described in the followin
 
 # Where to Go Next 
 
-In this tutorial you learned how to define and compile a JAX model using TT-XLA and tensor parallelism for execution across multiple chips. The example is designed as a template for building more complex models with custom sharding strategies. 
+In this tutorial, you learned how to define and compile a JAX model using TT-XLA and tensor parallelism for execution across multiple chips. The example is designed as a template for building more complex models with custom sharding strategies. 
 
 If you are interested in learning more, you may find the following tutorials useful: 
 * [Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Data Parallelism](#compile_models_multi_chip.md)
