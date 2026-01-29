@@ -10,8 +10,8 @@ The TT-XLA frontend supports:
 # System Configuration 
 
 Before you get started with this tutorial, make sure you have:
-* [Configured your Tenstorrent hardware.](https://github.com/tenstorrent/tt-xla/blob/main/docs/src/getting_started.md) 
-* Set up your selected environment for working with TT-XLA. (For this walkthrough, you only need to [install the wheel](https://github.com/tenstorrent/tt-xla/blob/main/docs/src/getting_started.md#installing-a-wheel-and-running-an-example), however you could also choose to setup [Docker](https://github.com/tenstorrent/tt-xla/blob/main/docs/src/getting_started_docker.md) or [build from source](https://github.com/tenstorrent/tt-xla/blob/main/docs/src/getting_started_build_from_source.md). The quickest and simplest option is using the wheel.)
+* [Configured your Tenstorrent hardware.](../setup/getting_started.md) 
+* Set up your selected environment for working with TT-XLA. (For this walkthrough, you only need to [install the wheel](../setup/getting_started.md#installing-a-wheel-and-running-an-example), however you could also choose to setup [Docker](../setup/getting_started_docker.md) or [build from source](../setup/getting_started_build_from_source.md). The quickest and simplest option is using the wheel.)
 
 # Compiling a Model for Use with TT-XLA and PyTorch
 
