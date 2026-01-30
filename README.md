@@ -1,3 +1,5 @@
+[![Link Checker](https://github.com/erikkai/tt-xla-jax-onboarding/actions/workflows/link-checker.yml/badge.svg)](https://github.com/erikkai/tt-xla-jax-onboarding/actions/workflows/link-checker.yml)
+
 # Tenstorrent TT-XLA Onboarding and JAX Tutorials
 This repository provides onboarding content for developers working with the Tenstorrent TT-XLA compiler front end. It bridges the gap between hardware configuration and executing optimized JAX models on physical silicon.
 
