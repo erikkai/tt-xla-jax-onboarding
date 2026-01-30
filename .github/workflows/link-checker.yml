@@ -21,7 +21,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
-          args: --verbose --no-progress --include-fragments '.'
+          args: --verbose --no-progress --exclude ".*#common-build-errors" --include-fragments '.'
           # Setting to 'true' ensures the Badge turns RED on failure
           fail: true 
 

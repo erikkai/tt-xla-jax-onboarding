@@ -168,5 +168,5 @@ Elements of the code that are Tenstorrent-specific are described in the followin
 In this tutorial, you learned how to define and compile a JAX model using TT-XLA and tensor parallelism for execution across multiple chips. The example is designed as a template for building more complex models with custom sharding strategies. 
 
 If you are interested in learning more, you may find the following tutorials useful: 
-* [Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Data Parallelism](#compile_models_multi_chip.md)
-* [Compiling Models in PyTorch and JAX Using TT-XLA (Single Chip)](#compile_models_single_chip.md)
+* [Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Data Parallelism](./compile_models_multi_chip.md)
+* [Compiling Models in PyTorch and JAX Using TT-XLA (Single Chip)](./compile_models_single_chip.md)
