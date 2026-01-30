@@ -191,7 +191,7 @@ The TT-XLA repo contains various tests in the **tests** directory. To run an ind
 
 ## Common Build Errors
 - Building TT-XLA requires `clang-17`. Please make sure that `clang-17` is installed on the system and `clang/clang++` links to the correct version of the respective tools.
-- Please also see the TT-MLIR [docs](https://github.com/tenstorrent/tt-mlir/blob/main/docs/src/getting-started.md#common-build-errors) for common build errors.
+- Please also see the TT-MLIR [docs](https://github.com/tenstorrent/tt-mlir/blob/main/docs/src/getting_started.md#common-build-errors) for common build errors.
 
 ### Pre-commit
 Pre-commit applies a git hook to the local repository such that linting is checked and applied on every `git commit` action. Install it from the root of the repository using:

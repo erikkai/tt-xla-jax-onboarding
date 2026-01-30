@@ -1,5 +1,5 @@
 # Getting Started
-This document walks you through how to set up TT-XLA. TT-XLA is a front end for TT-Forge that is primarily used to ingest JAX models via jit compile, providing a StableHLO (SHLO) graph to the TT-MLIR compiler. TT-XLA leverages [PJRT](https://github.com/openxla/xla/tree/main/xla/pjrt/c#pjrt---uniform-device-api) to integrate JAX, [TT-MLIR](https://github.com/tenstorrent/tt-mlir) and Tenstorrent hardware. Please see [this](https://opensource.googleblog.com/2023/05/pjrt-simplifying-ml-hardware-and-framework-integration.html) blog post for more information about PJRT project. This project started as a fork of [iree-pjrt](https://github.com/stellaraccident/iree-pjrt), but has since been refactored and diverged.
+This document walks you through how to set up TT-XLA. TT-XLA is a front end for TT-Forge that is primarily used to ingest JAX models via jit compile, providing a StableHLO (SHLO) graph to the TT-MLIR compiler. TT-XLA leverages PJRT to integrate JAX, [TT-MLIR](https://github.com/tenstorrent/tt-mlir) and Tenstorrent hardware. Please see [this](https://opensource.googleblog.com/2023/05/pjrt-simplifying-ml-hardware-and-framework-integration.html) blog post for more information about PJRT project. This project started as a fork of [iree-pjrt](https://github.com/stellaraccident/iree-pjrt), but has since been refactored and diverged.
 
 This is the main Getting Started page. There are two additional Getting Started pages depending on what you want to do. They are all described here, with links provided to each.
 
@@ -8,9 +8,6 @@ The following topics are covered:
 * [Setup Options](#setup-options)
 * [Configuring Hardware](#configuring-hardware)
 * [Installing a Wheel and Running an Example](#installing-a-wheel-and-running-an-example)
-* [Other Setup Options](#other-set-up-options)
-   * [Using a Docker Container to Run an Example](getting_started_docker.md)
-   * [Building From Source](getting_started_build_from_source.md)
 * [Where to Go Next](#where-to-go-next)
 
 > **NOTE:** If you encounter issues, please request assistance on the
@@ -25,7 +22,7 @@ TT-XLA can be used to run JAX models on Tenstorrent's AI hardware. Because TT-XL
 ## Configuring Hardware
 Before setup can happen, you must configure your hardware. You can skip this section if you already completed the configuration steps. Otherwise, this section of the walkthrough shows you how to do a quick setup using TT-Installer.
 
-1. Configure your hardware with TT-Installer using the [Software Installation section here.](https://docs.tenstorrent.com/getting-started/README.html#software-installation)
+1. Configure your hardware with TT-Installer using the [installation instructions here.](https://docs.tenstorrent.com/getting-started/README.html)
 
 2. Reboot your machine.
 

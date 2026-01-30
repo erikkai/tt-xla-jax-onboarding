@@ -2,10 +2,10 @@
 This tutorial shows how to shard a model's weight matrix across multiple Tenstorrent devices using tensor parallelism. This allows you to split large models that otherwise would not fit on a single chip's memory. 
 
 If you want to try a simpler compilation process using a single chip and either JAX or PyTorch, please see:
-* [Compiling Models in PyTorch and JAX Using TT-XLA (Single Chip)](#compile_models_single_chip.md)
+* [Compiling Models in PyTorch and JAX Using TT-XLA (Single Chip)](./compile_models_single_chip.md)
 
 If you want an example showing tensor parallelism instead of data parallelism, please see:
-* [Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Data Parallelism](#compile_models_multi_chip.md)
+* [Compiling JAX Models with TT-XLA for Multi-Chip Execution Using Data Parallelism](./compile_models_multi_chip.md)
 
 >**NOTE:** Training is not covered, this tutorial shows you how to do inference only. 
 
